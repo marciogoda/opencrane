@@ -1,0 +1,19 @@
+[package]
+name = "opencrane"
+version = "0.1.0"
+description = "Opencrane a better way to deploy"
+authors = ["Marcio Goda <marciogoda@gmail.com>"]
+edition = "2021"
+
+repository = "https://github.com/marciogoda/opencrane"
+license = "MIT"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[[bin]]
+name = "opencrane"
+path = "src/main.rs"
